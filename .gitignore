@@ -18,5 +18,8 @@ xcuserstate
 .LSOverride
 ._*
 
+# Distribution builds (uploaded to GitHub Releases, not committed)
+dist/
+
 # Claude Code local settings
 .claude/settings.local.json
