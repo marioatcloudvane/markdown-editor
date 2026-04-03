@@ -1,0 +1,22 @@
+# Build output
+build/
+.build/
+DerivedData/
+
+# Xcode
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+MdEditor.xcodeproj/xcuserdata/
+MdEditor.xcodeproj/project.xcworkspace/xcuserdata/
+*.moved-aside
+*.orig
+xcuserstate
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Claude Code local settings
+.claude/settings.local.json

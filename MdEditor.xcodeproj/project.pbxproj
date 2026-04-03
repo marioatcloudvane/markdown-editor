@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06445836B1010418AEC99ECA /* MarkdownTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A11FD697F03A32B3E89300 /* MarkdownTextView.swift */; };
+		1C272508A58034E0BED49ED0 /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E80572A36B8F21C5CCF918B /* SidebarViewController.swift */; };
+		1EEC2249588313F0DB35F803 /* PDFExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C1F59C914142FF9234333 /* PDFExporter.swift */; };
+		34368242F7E3E293DF450642 /* OverflowPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5FAF69A320EC8AF9F22BE /* OverflowPopoverViewController.swift */; };
+		36B3937A9CE211454F2ED09A /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 903B0345BA5B84590CC3AC43 /* AppIcon.icns */; };
+		36CDDF92EF96F7168120FBC7 /* MarkdownDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523C53A7705ED5025C18BAC /* MarkdownDocument.swift */; };
+		418302539EF7D966D1968F56 /* MarkdownSyntaxGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9072F3307525E3AD4D30C60 /* MarkdownSyntaxGuide.swift */; };
+		5B7DB762533EACC60C925799 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5660B1B84F21ACBECE5DC /* Constants.swift */; };
+		62F24B0D332586257FB35169 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE630F54A74EC0A7DC0FF6A /* MainWindowController.swift */; };
+		6F9DC903F77F1A3D71391669 /* ToolbarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315978D95DBD2963EC73DCB /* ToolbarManager.swift */; };
+		6FFCF2C696B66BC052D6E456 /* ListContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986ECC52DD13EC6681EB3EE4 /* ListContinuation.swift */; };
+		70697D9D444531B0D91167C0 /* LineNumberGutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A0F80B12A821C10006EAB /* LineNumberGutter.swift */; };
+		7270AD0D3844E8A9BD6AADD7 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC764B1D340353E043391F /* PreferencesWindowController.swift */; };
+		77DBD8164B6C6E5EB3F88D57 /* FormattingCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E377D05D8B76FE4A890F49 /* FormattingCommands.swift */; };
+		798F6F8E5BEC660CC40ABE0D /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729682AADD0B2D0F1297C6E6 /* MarkdownRenderer.swift */; };
+		7BE9BC20D026D4ED62F4B256 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26917D15673AA1557E3857A /* PreviewViewController.swift */; };
+		85F2A3911559D27355EEA417 /* MenuBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B27A4504FA65B59CFBF839 /* MenuBuilder.swift */; };
+		881D14FD10850CDC90136C2D /* HTMLExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64593D0CCA7BE88F073EB395 /* HTMLExporter.swift */; };
+		8B7BB06A44E70E1ABB1F7C39 /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251F944309D7FD66163EA95F /* AppPreferences.swift */; };
+		8C525B59877FB817BE15BE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792F6CC9204F454502ACBB33 /* AppDelegate.swift */; };
+		A10CE553D7ECA2C20629DD4A /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655A999DB51E5B3EC337F14 /* DocumentController.swift */; };
+		AB0483F37B44963BE6319D4A /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92436910E1EA372528758B3 /* EditorViewController.swift */; };
+		B03295162E74850AF5B0207F /* PreviewPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89E591B22EE972B391DBAAB /* PreviewPreferencesView.swift */; };
+		B80BB706B613640BCAC7D5ED /* GeneralPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC337C206FB2D55F6E9F6F /* GeneralPreferencesView.swift */; };
+		BDA85A2441C9002D4EC6D75C /* MarkdownTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75761AB34199C40A5639928D /* MarkdownTextStorage.swift */; };
+		C9BCD2BB76973AAAFE9560BA /* ViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD90FA40BC7A41E6DB9A364 /* ViewMode.swift */; };
+		CEAFCDABA0A9EE1295D0CDA2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FA1738A03896703C8906C /* main.swift */; };
+		D3615F21E0ACCF20FA3B64FA /* FolderScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E591778AA8C8C93C7AC738 /* FolderScanner.swift */; };
+		D362F01DFABE3EBBC8544D5D /* DocumentMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9829F222574FB21A0BDB152F /* DocumentMetrics.swift */; };
+		D4AB5A403894D4CBB3BBED76 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89A6407D04C3ACE4CE162B /* StatusBarView.swift */; };
+		D5B6CFB2714AE8C601E0734C /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C87FD031E794ED2391A37 /* MainSplitViewController.swift */; };
+		D68594DF0BADB2FA8BB2C5CE /* String+Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCDDD94E925D986B6C4A91 /* String+Markdown.swift */; };
+		EB253CBFCDEF4D549220E2EE /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25F8C117BE6A08B96DF112 /* ContentViewController.swift */; };
+		EB74705E4E863F426EA2F0BC /* EditorPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A06E5055D9525728F7DFB3 /* EditorPreferencesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02A11FD697F03A32B3E89300 /* MarkdownTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTextView.swift; sourceTree = "<group>"; };
+		06775229336398DD58412F9D /* MdEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MdEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1315978D95DBD2963EC73DCB /* ToolbarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarManager.swift; sourceTree = "<group>"; };
+		1523C53A7705ED5025C18BAC /* MarkdownDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocument.swift; sourceTree = "<group>"; };
+		195FA1738A03896703C8906C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C4C87FD031E794ED2391A37 /* MainSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
+		251F944309D7FD66163EA95F /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		2F3A0F80B12A821C10006EAB /* LineNumberGutter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNumberGutter.swift; sourceTree = "<group>"; };
+		3DE630F54A74EC0A7DC0FF6A /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		50BCDDD94E925D986B6C4A91 /* String+Markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Markdown.swift"; sourceTree = "<group>"; };
+		64593D0CCA7BE88F073EB395 /* HTMLExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLExporter.swift; sourceTree = "<group>"; };
+		64B27A4504FA65B59CFBF839 /* MenuBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBuilder.swift; sourceTree = "<group>"; };
+		65E591778AA8C8C93C7AC738 /* FolderScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderScanner.swift; sourceTree = "<group>"; };
+		6E80572A36B8F21C5CCF918B /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+		6F0976ECD946609441F94015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		729682AADD0B2D0F1297C6E6 /* MarkdownRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRenderer.swift; sourceTree = "<group>"; };
+		75761AB34199C40A5639928D /* MarkdownTextStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTextStorage.swift; sourceTree = "<group>"; };
+		792F6CC9204F454502ACBB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83EC337C206FB2D55F6E9F6F /* GeneralPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralPreferencesView.swift; sourceTree = "<group>"; };
+		903B0345BA5B84590CC3AC43 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		9829F222574FB21A0BDB152F /* DocumentMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentMetrics.swift; sourceTree = "<group>"; };
+		986ECC52DD13EC6681EB3EE4 /* ListContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContinuation.swift; sourceTree = "<group>"; };
+		A92436910E1EA372528758B3 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		ACB5FAF69A320EC8AF9F22BE /* OverflowPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverflowPopoverViewController.swift; sourceTree = "<group>"; };
+		AD718FB7F4E2B21D5FF5DF7B /* MdEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MdEditor.entitlements; sourceTree = "<group>"; };
+		AE7C1F59C914142FF9234333 /* PDFExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExporter.swift; sourceTree = "<group>"; };
+		B26917D15673AA1557E3857A /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		C4A06E5055D9525728F7DFB3 /* EditorPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorPreferencesView.swift; sourceTree = "<group>"; };
+		C6EC764B1D340353E043391F /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		CA89A6407D04C3ACE4CE162B /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		D2E377D05D8B76FE4A890F49 /* FormattingCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingCommands.swift; sourceTree = "<group>"; };
+		E655A999DB51E5B3EC337F14 /* DocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
+		E89E591B22EE972B391DBAAB /* PreviewPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPreferencesView.swift; sourceTree = "<group>"; };
+		E9072F3307525E3AD4D30C60 /* MarkdownSyntaxGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownSyntaxGuide.swift; sourceTree = "<group>"; };
+		EF25F8C117BE6A08B96DF112 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		FCD90FA40BC7A41E6DB9A364 /* ViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMode.swift; sourceTree = "<group>"; };
+		FED5660B1B84F21ACBECE5DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		09433757354D2414908D4E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06775229336398DD58412F9D /* MdEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21C1337B620FD7755FA58431 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				65E591778AA8C8C93C7AC738 /* FolderScanner.swift */,
+				6E80572A36B8F21C5CCF918B /* SidebarViewController.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		235EA1F36C891BCE2CEAE8A8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FED5660B1B84F21ACBECE5DC /* Constants.swift */,
+				50BCDDD94E925D986B6C4A91 /* String+Markdown.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		45FB8209DEBE84D688C986E3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				792F6CC9204F454502ACBB33 /* AppDelegate.swift */,
+				903B0345BA5B84590CC3AC43 /* AppIcon.icns */,
+				E655A999DB51E5B3EC337F14 /* DocumentController.swift */,
+				6F0976ECD946609441F94015 /* Info.plist */,
+				195FA1738A03896703C8906C /* main.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4EBF108D2D29CCB819C1C22C /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				251F944309D7FD66163EA95F /* AppPreferences.swift */,
+				C4A06E5055D9525728F7DFB3 /* EditorPreferencesView.swift */,
+				83EC337C206FB2D55F6E9F6F /* GeneralPreferencesView.swift */,
+				C6EC764B1D340353E043391F /* PreferencesWindowController.swift */,
+				E89E591B22EE972B391DBAAB /* PreviewPreferencesView.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		613450F2BCF3D47D0439255F /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				1523C53A7705ED5025C18BAC /* MarkdownDocument.swift */,
+				FCD90FA40BC7A41E6DB9A364 /* ViewMode.swift */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		6C78EC1C133CC94B610DA59A /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				729682AADD0B2D0F1297C6E6 /* MarkdownRenderer.swift */,
+				B26917D15673AA1557E3857A /* PreviewViewController.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		9CC0721B73DDAF48A82F2282 /* WindowChrome */ = {
+			isa = PBXGroup;
+			children = (
+				EF25F8C117BE6A08B96DF112 /* ContentViewController.swift */,
+				1C4C87FD031E794ED2391A37 /* MainSplitViewController.swift */,
+				3DE630F54A74EC0A7DC0FF6A /* MainWindowController.swift */,
+				ACB5FAF69A320EC8AF9F22BE /* OverflowPopoverViewController.swift */,
+				1315978D95DBD2963EC73DCB /* ToolbarManager.swift */,
+			);
+			path = WindowChrome;
+			sourceTree = "<group>";
+		};
+		A69573F2D611C26D20F0C7BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9072F3307525E3AD4D30C60 /* MarkdownSyntaxGuide.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE8DC0574F35429A3E1297EC /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				9829F222574FB21A0BDB152F /* DocumentMetrics.swift */,
+				CA89A6407D04C3ACE4CE162B /* StatusBarView.swift */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		C0841636B25B2FE9AFC506B1 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				64593D0CCA7BE88F073EB395 /* HTMLExporter.swift */,
+				AE7C1F59C914142FF9234333 /* PDFExporter.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		CAA416A871A21007213E1582 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				A92436910E1EA372528758B3 /* EditorViewController.swift */,
+				D2E377D05D8B76FE4A890F49 /* FormattingCommands.swift */,
+				2F3A0F80B12A821C10006EAB /* LineNumberGutter.swift */,
+				986ECC52DD13EC6681EB3EE4 /* ListContinuation.swift */,
+				75761AB34199C40A5639928D /* MarkdownTextStorage.swift */,
+				02A11FD697F03A32B3E89300 /* MarkdownTextView.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		CE42BE24DBE28F652C9D2B8C = {
+			isa = PBXGroup;
+			children = (
+				FA429F9D1BB6B699331E27F7 /* MdEditor */,
+				09433757354D2414908D4E3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F468F425E6C68BC178333978 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				64B27A4504FA65B59CFBF839 /* MenuBuilder.swift */,
+			);
+			path = Menus;
+			sourceTree = "<group>";
+		};
+		FA429F9D1BB6B699331E27F7 /* MdEditor */ = {
+			isa = PBXGroup;
+			children = (
+				AD718FB7F4E2B21D5FF5DF7B /* MdEditor.entitlements */,
+				45FB8209DEBE84D688C986E3 /* App */,
+				613450F2BCF3D47D0439255F /* Document */,
+				CAA416A871A21007213E1582 /* Editor */,
+				C0841636B25B2FE9AFC506B1 /* Export */,
+				F468F425E6C68BC178333978 /* Menus */,
+				4EBF108D2D29CCB819C1C22C /* Preferences */,
+				6C78EC1C133CC94B610DA59A /* Preview */,
+				A69573F2D611C26D20F0C7BD /* Resources */,
+				21C1337B620FD7755FA58431 /* Sidebar */,
+				BE8DC0574F35429A3E1297EC /* StatusBar */,
+				235EA1F36C891BCE2CEAE8A8 /* Utilities */,
+				9CC0721B73DDAF48A82F2282 /* WindowChrome */,
+			);
+			path = MdEditor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182EAD9731EF0C0CEDFA91FA /* MdEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D391253F17C33BA9160225FC /* Build configuration list for PBXNativeTarget "MdEditor" */;
+			buildPhases = (
+				4DB3A8BD2CC1ECA66F13BF9A /* Sources */,
+				2ED88EC158EFB2BDBC373244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MdEditor;
+			packageProductDependencies = (
+			);
+			productName = MdEditor;
+			productReference = 06775229336398DD58412F9D /* MdEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B0050D6E96ECDC31F3596D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 395B29EAB07768BD4B943111 /* Build configuration list for PBXProject "MdEditor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CE42BE24DBE28F652C9D2B8C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09433757354D2414908D4E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182EAD9731EF0C0CEDFA91FA /* MdEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ED88EC158EFB2BDBC373244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B3937A9CE211454F2ED09A /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB3A8BD2CC1ECA66F13BF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C525B59877FB817BE15BE6D /* AppDelegate.swift in Sources */,
+				8B7BB06A44E70E1ABB1F7C39 /* AppPreferences.swift in Sources */,
+				5B7DB762533EACC60C925799 /* Constants.swift in Sources */,
+				EB253CBFCDEF4D549220E2EE /* ContentViewController.swift in Sources */,
+				A10CE553D7ECA2C20629DD4A /* DocumentController.swift in Sources */,
+				D362F01DFABE3EBBC8544D5D /* DocumentMetrics.swift in Sources */,
+				EB74705E4E863F426EA2F0BC /* EditorPreferencesView.swift in Sources */,
+				AB0483F37B44963BE6319D4A /* EditorViewController.swift in Sources */,
+				D3615F21E0ACCF20FA3B64FA /* FolderScanner.swift in Sources */,
+				77DBD8164B6C6E5EB3F88D57 /* FormattingCommands.swift in Sources */,
+				B80BB706B613640BCAC7D5ED /* GeneralPreferencesView.swift in Sources */,
+				881D14FD10850CDC90136C2D /* HTMLExporter.swift in Sources */,
+				70697D9D444531B0D91167C0 /* LineNumberGutter.swift in Sources */,
+				6FFCF2C696B66BC052D6E456 /* ListContinuation.swift in Sources */,
+				D5B6CFB2714AE8C601E0734C /* MainSplitViewController.swift in Sources */,
+				62F24B0D332586257FB35169 /* MainWindowController.swift in Sources */,
+				36CDDF92EF96F7168120FBC7 /* MarkdownDocument.swift in Sources */,
+				798F6F8E5BEC660CC40ABE0D /* MarkdownRenderer.swift in Sources */,
+				418302539EF7D966D1968F56 /* MarkdownSyntaxGuide.swift in Sources */,
+				BDA85A2441C9002D4EC6D75C /* MarkdownTextStorage.swift in Sources */,
+				06445836B1010418AEC99ECA /* MarkdownTextView.swift in Sources */,
+				85F2A3911559D27355EEA417 /* MenuBuilder.swift in Sources */,
+				34368242F7E3E293DF450642 /* OverflowPopoverViewController.swift in Sources */,
+				1EEC2249588313F0DB35F803 /* PDFExporter.swift in Sources */,
+				7270AD0D3844E8A9BD6AADD7 /* PreferencesWindowController.swift in Sources */,
+				B03295162E74850AF5B0207F /* PreviewPreferencesView.swift in Sources */,
+				7BE9BC20D026D4ED62F4B256 /* PreviewViewController.swift in Sources */,
+				1C272508A58034E0BED49ED0 /* SidebarViewController.swift in Sources */,
+				D4AB5A403894D4CBB3BBED76 /* StatusBarView.swift in Sources */,
+				D68594DF0BADB2FA8BB2C5CE /* String+Markdown.swift in Sources */,
+				6F9DC903F77F1A3D71391669 /* ToolbarManager.swift in Sources */,
+				C9BCD2BB76973AAAFE9560BA /* ViewMode.swift in Sources */,
+				CEAFCDABA0A9EE1295D0CDA2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		305005EDD633A636E83CAB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40D9CBF6E0A5ADDBD3608CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MdEditor/MdEditor.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MdEditor/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = "-framework SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdeditor.MdEditor;
+				PRODUCT_NAME = MdEditor;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		6F9D066B3D33AAC435DDE75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0FCDC41CF4C721818AD29D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MdEditor/MdEditor.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MdEditor/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = "-framework SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdeditor.MdEditor;
+				PRODUCT_NAME = MdEditor;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		395B29EAB07768BD4B943111 /* Build configuration list for PBXProject "MdEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305005EDD633A636E83CAB7A /* Debug */,
+				6F9D066B3D33AAC435DDE75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D391253F17C33BA9160225FC /* Build configuration list for PBXNativeTarget "MdEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FCDC41CF4C721818AD29D3 /* Debug */,
+				40D9CBF6E0A5ADDBD3608CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B0050D6E96ECDC31F3596D8 /* Project object */;
+}
